@@ -1,5 +1,5 @@
 {
-    "name": "wcg104/product",
+    "name": "wcgmoulick/product",
     "description": "CRUD operation package for product and category in laravel",
     "license": "MIT",
     "keywords": [
@@ -15,7 +15,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Wcg104\\Product\\": "src/"
+            "Wcgmoulick\\Product\\": "src/"
         }
     },
     "minimum-stability": "dev",
@@ -26,7 +26,7 @@
     "extra": {
       "laravel": {
           "providers": [
-              "Wcg104\\Product\\Providers\\ProductServiceProvider"
+              "Wcgmoulick\\Product\\Providers\\ProductServiceProvider"
           ]
       }
   }
